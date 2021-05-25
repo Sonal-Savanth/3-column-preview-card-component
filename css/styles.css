@@ -1,0 +1,138 @@
+/**********TAG SELECTORS**********/
+body {
+  text-align: center;
+  color: cyan;
+  color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+h1 {
+font-family: 'Big Shoulders Display', cursive;
+text-align: left;
+position: relative;
+left: 15%;
+
+
+}
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: cyan;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 70%;
+  text-align: left;
+  margin: auto;
+  line-height: 2;
+}
+img {
+  padding-top: 2.5rem;
+  display:block;
+  position: relative;
+  left: 15%;
+
+
+}
+div {
+  padding: 1.3rem; /*20px*/
+  margin: 0 auto 0 auto;
+}
+/**********CLASS SELECTORS**********/
+
+.sedan {
+  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
+  border-top-right-radius: 2%;
+  border-top-left-radius: 2%;
+
+
+
+}
+.suv {
+  background-color: cyan;
+  background-color: hsl(184, 100%, 22%);
+
+
+}
+.luxury {
+  background-color: blue;
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 2%;
+  border-bottom-right-radius: 2%;
+
+}
+.button {
+  background-color: black;
+  background-color: hsl(0, 0%, 95%);
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-bottom: 2.5rem;
+  margin-top: .625rem;   /*.625rem is 10px */
+  position: relative;
+  right: 3.75rem;
+}
+.one {
+  color: orange;
+  color: hsl(31, 77%, 52%);
+}
+.two {
+  color: cyan;
+  color: hsl(184, 100%, 22%);
+}
+.three {
+  color: blue;
+  color: hsl(179, 100%, 13%);
+}
+.button:hover {
+  color: white;
+  color: hsla(0, 0%, 100%, 0.75);
+  transition-duration: 0.4s;
+  border: 2px solid white;
+}
+.one:hover {
+  background-color: orange;
+  background-color: hsl(31, 77%, 52%);
+  border: 2px solid white;
+}
+.two:hover {
+  background-color: cyan;
+  background-color: hsl(184, 100%, 22%);
+  border: 2px solid white;
+}
+.three:hover {
+  background-color: blue;
+  background-color: hsl(179, 100%, 13%);
+  border: 2px solid white;
+}
+@media (min-width: 900px) {
+
+ .container {
+   display: flex;
+   align-items: center;
+   padding-top: 20%;
+   padding-left:10%;
+   padding-right: 10%;
+
+ }
+.sedan {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+.luxury {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 2%;
+  border-top-right-radius: 2%;
+}
+p  {
+  width: 80%;
+}
+}
+@media (min-width: 1000px) {
+  .container {
+    padding-top: 10%;
+  }
+}
